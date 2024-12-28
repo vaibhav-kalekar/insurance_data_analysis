@@ -1,0 +1,261 @@
+[0m14:55:39.420934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107566800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f65840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f645b0>]}
+
+
+============================== 14:55:39.423599 | 75ce0b67-bbdc-4cc3-8173-5db74f6e4ca9 ==============================
+[0m14:55:39.423599 [info ] [MainThread]: Running with dbt=1.9.1
+[0m14:55:39.423921 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/vaibhavk/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:55:39.424285 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/vaibhavk/Projects/travel_insurance/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:55:39.457827 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.08241696, "process_in_blocks": "0", "process_kernel_time": 0.121967, "process_mem_max_rss": "96452608", "process_out_blocks": "0", "process_user_time": 0.725138}
+[0m14:55:39.458281 [debug] [MainThread]: Command `dbt run` failed at 14:55:39.458207 after 0.08 seconds
+[0m14:55:39.458571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107566800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a2c340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f642e0>]}
+[0m14:55:39.458851 [debug] [MainThread]: Flushing usage events
+[0m14:55:40.072454 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:06:35.552141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102ba710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c6a5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c69ea0>]}
+
+
+============================== 15:06:35.554850 | 657063e6-5410-41f9-8302-e92eadf0f90a ==============================
+[0m15:06:35.554850 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:06:35.555223 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/vaibhavk/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:06:35.555602 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/vaibhavk/Projects/travel_insurance/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:06:35.557069 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.0430625, "process_in_blocks": "0", "process_kernel_time": 0.097425, "process_mem_max_rss": "95715328", "process_out_blocks": "0", "process_user_time": 0.593332}
+[0m15:06:35.557331 [debug] [MainThread]: Command `dbt run` failed at 15:06:35.557277 after 0.04 seconds
+[0m15:06:35.557541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102ba710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111bd6680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c69e70>]}
+[0m15:06:35.557738 [debug] [MainThread]: Flushing usage events
+[0m15:06:36.001486 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:39:44.402337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10723a7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10812f250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10812f970>]}
+
+
+============================== 18:39:44.405174 | 30ab4e38-7069-41f8-b636-f060830de20a ==============================
+[0m18:39:44.405174 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:39:44.405497 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/vaibhavk/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:39:44.413812 [info ] [MainThread]: dbt version: 1.9.1
+[0m18:39:44.414070 [info ] [MainThread]: python version: 3.10.0
+[0m18:39:44.414225 [info ] [MainThread]: python path: /Users/vaibhavk/Projects/travel_insurance/.venv/bin/python
+[0m18:39:44.414373 [info ] [MainThread]: os info: macOS-15.2-arm64-arm-64bit
+[0m18:39:44.464349 [info ] [MainThread]: Using profiles dir at /Users/vaibhavk/.dbt
+[0m18:39:44.464635 [info ] [MainThread]: Using profiles.yml file at /Users/vaibhavk/.dbt/profiles.yml
+[0m18:39:44.464798 [info ] [MainThread]: Using dbt_project.yml file at /Users/vaibhavk/Projects/travel_insurance/dbt_project.yml
+[0m18:39:44.465103 [info ] [MainThread]: adapter type: postgres
+[0m18:39:44.465254 [info ] [MainThread]: adapter version: 1.9.0
+[0m18:39:44.465398 [info ] [MainThread]: Configuration:
+[0m18:39:44.465535 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:39:44.465666 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:39:44.465795 [info ] [MainThread]: Required dependencies:
+[0m18:39:44.465958 [debug] [MainThread]: Executing "git --help"
+[0m18:39:44.514318 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:39:44.514867 [debug] [MainThread]: STDERR: "b''"
+[0m18:39:44.515053 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:39:44.515232 [info ] [MainThread]: Connection:
+[0m18:39:44.515425 [info ] [MainThread]:   host: localhost
+[0m18:39:44.515562 [info ] [MainThread]:   port: 5432
+[0m18:39:44.515694 [info ] [MainThread]:   user: admin
+[0m18:39:44.515822 [info ] [MainThread]:   database: travel_insurance
+[0m18:39:44.515958 [info ] [MainThread]:   schema: public
+[0m18:39:44.516083 [info ] [MainThread]:   connect_timeout: 10
+[0m18:39:44.516213 [info ] [MainThread]:   role: None
+[0m18:39:44.516341 [info ] [MainThread]:   search_path: None
+[0m18:39:44.516470 [info ] [MainThread]:   keepalives_idle: 0
+[0m18:39:44.516596 [info ] [MainThread]:   sslmode: None
+[0m18:39:44.516727 [info ] [MainThread]:   sslcert: None
+[0m18:39:44.516854 [info ] [MainThread]:   sslkey: None
+[0m18:39:44.516982 [info ] [MainThread]:   sslrootcert: None
+[0m18:39:44.517108 [info ] [MainThread]:   application_name: dbt
+[0m18:39:44.517232 [info ] [MainThread]:   retries: 1
+[0m18:39:44.517578 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m18:39:44.600726 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m18:39:44.625936 [debug] [MainThread]: Using postgres connection "debug"
+[0m18:39:44.626177 [debug] [MainThread]: On debug: select 1 as id
+[0m18:39:44.626330 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:39:44.764733 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "admin" does not exist
+
+[0m18:39:44.769600 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m18:39:44.769986 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m18:39:44.770320 [debug] [MainThread]: On debug: No close available on handle
+[0m18:39:44.770668 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:39:44.771081 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m18:39:44.771378 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/vaibhavk/Projects/travel_insurance/dbt_project.yml> not found
+
+[0m18:39:44.771677 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "admin" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:39:44.808325 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.45685115, "process_in_blocks": "0", "process_kernel_time": 0.179338, "process_mem_max_rss": "109527040", "process_out_blocks": "0", "process_user_time": 0.694712}
+[0m18:39:44.808981 [debug] [MainThread]: Command `dbt debug` failed at 18:39:44.808856 after 0.46 seconds
+[0m18:39:44.809383 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:39:44.809762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10723a7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10869ab60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108294ee0>]}
+[0m18:39:44.810216 [debug] [MainThread]: Flushing usage events
+[0m18:39:45.443170 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:40:33.478797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079967a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088862f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108885bd0>]}
+
+
+============================== 18:40:33.481541 | 385cf946-292f-48c3-8764-61ebf47f0ad2 ==============================
+[0m18:40:33.481541 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:40:33.481885 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/vaibhavk/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init insurance_analytics', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:40:33.490937 [debug] [MainThread]: Starter project path: /Users/vaibhavk/Projects/travel_insurance/.venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m18:40:33.494398 [info ] [MainThread]: 
+Your new dbt project "insurance_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:40:33.494596 [info ] [MainThread]: Setting up your profile.
+[0m18:41:13.187655 [info ] [MainThread]: Profile insurance_analytics written to /Users/vaibhavk/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:41:13.193296 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 39.753395, "process_in_blocks": "0", "process_kernel_time": 0.134938, "process_mem_max_rss": "95993856", "process_out_blocks": "0", "process_user_time": 0.644268}
+[0m18:41:13.194319 [debug] [MainThread]: Command `dbt init` succeeded at 18:41:13.194111 after 39.75 seconds
+[0m18:41:13.195340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079967a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10899f790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108345a80>]}
+[0m18:41:13.196087 [debug] [MainThread]: Flushing usage events
+[0m18:41:13.780998 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:42:08.384793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a727a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106959930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069586a0>]}
+
+
+============================== 18:42:08.387636 | 63f424e2-f5c2-4846-a679-c5fcef5011da ==============================
+[0m18:42:08.387636 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:42:08.388003 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/vaibhavk/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init insurance_analytics', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:42:08.396092 [debug] [MainThread]: Starter project path: /Users/vaibhavk/Projects/travel_insurance/.venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m18:42:08.399878 [info ] [MainThread]: 
+Your new dbt project "insurance_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:42:08.400073 [info ] [MainThread]: Setting up your profile.
+[0m18:42:16.930479 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 8.587726, "process_in_blocks": "0", "process_kernel_time": 0.128119, "process_mem_max_rss": "103251968", "process_out_blocks": "0", "process_user_time": 0.665103}
+[0m18:42:16.930953 [debug] [MainThread]: Command `dbt init` succeeded at 18:42:16.930891 after 8.59 seconds
+[0m18:42:16.931158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a727a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106423280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aaf910>]}
+[0m18:42:16.931354 [debug] [MainThread]: Flushing usage events
+[0m18:42:17.385206 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:42:28.269056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b16800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a05b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a048e0>]}
+
+
+============================== 18:42:28.271594 | 4024148e-27ac-4906-9757-757a6c2081f6 ==============================
+[0m18:42:28.271594 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:42:28.271901 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/vaibhavk/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:42:28.278914 [info ] [MainThread]: dbt version: 1.9.1
+[0m18:42:28.279158 [info ] [MainThread]: python version: 3.10.0
+[0m18:42:28.279312 [info ] [MainThread]: python path: /Users/vaibhavk/Projects/travel_insurance/.venv/bin/python
+[0m18:42:28.279458 [info ] [MainThread]: os info: macOS-15.2-arm64-arm-64bit
+[0m18:42:28.437498 [info ] [MainThread]: Using profiles dir at /Users/vaibhavk/.dbt
+[0m18:42:28.437790 [info ] [MainThread]: Using profiles.yml file at /Users/vaibhavk/.dbt/profiles.yml
+[0m18:42:28.437952 [info ] [MainThread]: Using dbt_project.yml file at /Users/vaibhavk/Projects/travel_insurance/dbt_project.yml
+[0m18:42:28.438146 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:42:28.439437 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.20664671, "process_in_blocks": "0", "process_kernel_time": 0.115058, "process_mem_max_rss": "116506624", "process_out_blocks": "0", "process_user_time": 0.687707}
+[0m18:42:28.439660 [debug] [MainThread]: Command `dbt debug` failed at 18:42:28.439610 after 0.21 seconds
+[0m18:42:28.439846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b16800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064fc610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a0ef50>]}
+[0m18:42:28.440038 [debug] [MainThread]: Flushing usage events
+[0m18:42:28.894935 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:43:36.889950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a5e7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10494e2f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10494dbd0>]}
+
+
+============================== 18:43:36.892810 | e96f92c6-dd12-4b44-bbc1-1969785ba5e5 ==============================
+[0m18:43:36.892810 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:43:36.893159 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/vaibhavk/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:43:36.901330 [info ] [MainThread]: dbt version: 1.9.1
+[0m18:43:36.901554 [info ] [MainThread]: python version: 3.10.0
+[0m18:43:36.901710 [info ] [MainThread]: python path: /Users/vaibhavk/Projects/travel_insurance/.venv/bin/python
+[0m18:43:36.901860 [info ] [MainThread]: os info: macOS-15.2-arm64-arm-64bit
+[0m18:43:37.023580 [info ] [MainThread]: Using profiles dir at /Users/vaibhavk/.dbt
+[0m18:43:37.023867 [info ] [MainThread]: Using profiles.yml file at /Users/vaibhavk/.dbt/profiles.yml
+[0m18:43:37.024031 [info ] [MainThread]: Using dbt_project.yml file at /Users/vaibhavk/Projects/travel_insurance/dbt_project.yml
+[0m18:43:37.026441 [info ] [MainThread]: adapter type: duckdb
+[0m18:43:37.026662 [info ] [MainThread]: adapter version: 1.9.1
+[0m18:43:37.026838 [info ] [MainThread]: Configuration:
+[0m18:43:37.026983 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:43:37.027124 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:43:37.027263 [info ] [MainThread]: Required dependencies:
+[0m18:43:37.027443 [debug] [MainThread]: Executing "git --help"
+[0m18:43:37.070328 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:43:37.070899 [debug] [MainThread]: STDERR: "b''"
+[0m18:43:37.071092 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:43:37.071277 [info ] [MainThread]: Connection:
+[0m18:43:37.071478 [info ] [MainThread]:   database: dev
+[0m18:43:37.071620 [info ] [MainThread]:   schema: main
+[0m18:43:37.071759 [info ] [MainThread]:   path: dev.duckdb
+[0m18:43:37.071906 [info ] [MainThread]:   config_options: None
+[0m18:43:37.072043 [info ] [MainThread]:   extensions: None
+[0m18:43:37.072183 [info ] [MainThread]:   settings: {}
+[0m18:43:37.072316 [info ] [MainThread]:   external_root: .
+[0m18:43:37.072450 [info ] [MainThread]:   use_credential_provider: None
+[0m18:43:37.072586 [info ] [MainThread]:   attach: None
+[0m18:43:37.072720 [info ] [MainThread]:   filesystems: None
+[0m18:43:37.072852 [info ] [MainThread]:   remote: None
+[0m18:43:37.072982 [info ] [MainThread]:   plugins: None
+[0m18:43:37.073118 [info ] [MainThread]:   disable_transactions: False
+[0m18:43:37.073491 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m18:43:37.128006 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m18:43:37.151460 [debug] [MainThread]: Using duckdb connection "debug"
+[0m18:43:37.151688 [debug] [MainThread]: On debug: select 1 as id
+[0m18:43:37.151843 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:43:37.163518 [debug] [MainThread]: SQL status: OK in 0.012 seconds
+[0m18:43:37.164082 [debug] [MainThread]: On debug: Close
+[0m18:43:37.165325 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:43:37.165514 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:43:37.165661 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/vaibhavk/Projects/travel_insurance/dbt_project.yml> not found
+
+[0m18:43:37.167024 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.31600437, "process_in_blocks": "0", "process_kernel_time": 0.164054, "process_mem_max_rss": "123224064", "process_out_blocks": "0", "process_user_time": 0.70621}
+[0m18:43:37.167251 [debug] [MainThread]: Command `dbt debug` failed at 18:43:37.167202 after 0.32 seconds
+[0m18:43:37.167429 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:43:37.167598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a5e7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ae75e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ae67a0>]}
+[0m18:43:37.167805 [debug] [MainThread]: Flushing usage events
+[0m18:43:37.755500 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:39:08.833695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1035ae770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104495f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104494310>]}
+
+
+============================== 22:39:08.836524 | a2915353-9951-4de5-bda8-fecafadccd0b ==============================
+[0m22:39:08.836524 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:39:08.836856 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/vaibhavk/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:39:08.837177 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/vaibhavk/Projects/travel_insurance/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:39:08.838408 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.04522196, "process_in_blocks": "0", "process_kernel_time": 0.102205, "process_mem_max_rss": "95551488", "process_out_blocks": "0", "process_user_time": 0.598487}
+[0m22:39:08.838717 [debug] [MainThread]: Command `dbt docs generate` failed at 22:39:08.838662 after 0.05 seconds
+[0m22:39:08.838930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1035ae770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104494310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104494040>]}
+[0m22:39:08.839130 [debug] [MainThread]: Flushing usage events
+[0m22:39:09.446799 [debug] [MainThread]: An error was encountered while trying to flush usage events

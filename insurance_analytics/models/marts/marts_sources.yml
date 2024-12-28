@@ -1,0 +1,93 @@
+version: 2
+
+models:
+  - name: insurance_analytics
+    database: travel_insurance
+    schema: main
+    tables:
+      - name: dim_employee
+        description: "Dimension Table for Employees/Agents"
+        columns:
+          - name: agent_id
+            description: "Column to identify the employee"
+            tests:
+              - not_null
+              - unique
+          - name: employee_id
+            description: "Unique ID for each employee"
+            tests:
+              - not_null
+              - unique
+      - name: dim_customer_details
+        description: "Dimension Table for Customers"
+        columns:
+          - name: customer_details_id
+            description: "Unique ID for customer details table"
+            tests:
+              - not_null
+              - unique
+          - name: customer_id
+            description: "Unique ID for customer"
+            tests:
+              - not_null
+              - unique
+      - name: dim_vendor
+        description: "Dimension Table for Vendors or Insurance Providers"
+        columns:
+          - name: vendor_id
+            description: "Unique ID for vendor"
+            tests:
+              - not_null
+              - unique
+          - name: id
+            description: "Unique ID for vendor table"
+            tests:
+              - not_null
+              - unique
+      - name: dim_claim_details
+        description: "Dimension Table for Claims"
+        columns:
+          - name: claim_details_id
+            description: "Unique ID for Claims details table"
+            tests:
+              - not_null
+              - unique
+          - name: agent_id
+            description: "Employee ID connected to the employee table"
+            tests:
+              - relationships:
+                  to: source('main', 'dim_employee')
+                  field: agent_id
+          - name: vendor_id
+            description: "Vendor ID connected to the Vendor table"
+            tests:
+              - relationships:
+                  to: source('main', 'dim_vendor')
+                  field: vendor_id
+      - name: fct_claims_mobile
+        description: "Fact Table to get count of all claims only for mobile insurances"
+        columns:
+          - name: insurance_type
+            description: "Mobile Insurance type"
+            tests:
+              - accepted_values:
+                  values: ['Mobile']
+      - name: fct_claims_summary_by_type
+        description: "Fact Table to get count of all the claims by type"
+        columns:
+          - name: insurance_type
+            description: "All Types of Insurance"
+            tests:
+              - accepted_values:
+                  values: ['Health','Life','Mobile','Motor','Property','Travel']
+      - name: fct_incident_state_severity_count
+        description: "Fact table to get all the count of incidents as per state"
+        columns:
+          - name: incident_state
+            description: "Details of state of a incident"
+            tests:
+              - not_null
+          - name: incident_severity
+            description: "Details of severity of a incident"
+            tests:
+              - not_null

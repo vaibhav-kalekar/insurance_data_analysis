@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: insurance_analytics
+    database: travel_insurance
+    schema: main
+    tables:
+      - name: stg_employee_data
+        columns:
+          - name: AGENT_ID
+            tests:
+              - not_null
+      - name: stg_insurance_data
+        columns:
+          - name: POLICY_NUMBER
+            tests:
+              - not_null
+      - name: stg_vendor_data
+        columns:
+          - name: VENDOR_ID
+            tests:
+              - not_null

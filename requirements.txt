@@ -1,0 +1,8 @@
+pandas
+duckdb
+sqlalchemy
+dbt-core
+dbt-postgres
+streamlit
+apache-airflow
+psycopg2-binary
