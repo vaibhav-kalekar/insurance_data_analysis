@@ -51,8 +51,8 @@ if st.session_state.df is not None and not st.session_state.df.empty:
     st.header("Visualization Options")
 
     # Get numeric and text columns
-    numeric_columns = st.session_state.df.select_dtypes(include=["number"]).columns
-    text_columns = st.session_state.df.select_dtypes(include=["object", "string"]).columns
+    numeric_columns = st.session_state.df.select_dtypes(include=["object","number","string"]).columns
+    text_columns = st.session_state.df.select_dtypes(include=["object", "string", "number"]).columns
 
     if len(numeric_columns) > 0 and len(text_columns) > 0:
         col1, col2 = st.columns(2)
